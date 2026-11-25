@@ -1,0 +1,14 @@
+PAINEL 7X
+- Baseado no BLACK MACRO MENU v2 original, mantendo o visual preto/amarelo e as duas funções.
+- Lite Foot: quatro etapas configuráveis. Clique no botão de cada etapa e pressione uma tecla do teclado.
+- O Lite Foot dispara ao SOLTAR o botão direito do mouse.
+- Cada etapa tem seu próprio MS, que define a pausa depois do envio daquela tecla.
+- Correr: mantém o comportamento original; enquanto W, A, S ou D estiver pressionada, envia Mouse Wheel Up no intervalo configurável (padrão 321 ms).
+
+Compilação EXE pelo GitHub Actions:
+1. Envie os arquivos desta pasta para a raiz do repositório GitHub.
+2. Mantenha .github/workflows/build-windows.yml no caminho indicado.
+3. Abra Actions e aguarde o workflow terminar.
+4. Baixe o Artifact PAINEL_7X-Windows e extraia o EXE.
+
+Observação: use somente onde macros forem permitidos pelo servidor. Alguns servidores podem bloquear automações.
